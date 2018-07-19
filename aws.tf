@@ -11,7 +11,7 @@ provider "aws" {
 
 resource "aws_key_pair" "sokolov-key" {
   key_name   = "sokolov-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLIysh5oLuBddmbEpJAGfUQ7aOcfTGytGp46HFcMlUpYcEWeKwMK97QhuCgnCEamYDDoY7/tNyDL5psdrW5n0up/HfatvGCHfugEIQNl5zY0TSNFQRBoQ9+tBj0bNpBPDv/3oooGYfGlUK45MMYzrvL6/EIrK1MOdRW8z2JWVTOU23cOFeS24Edp3EIdcv8/o2NqnSIpSAB5KptmoBh22TqQMEbNfD+ymjNg1BB//BMtoOTnbO1oAQHcoG7cHVy3IS2R8glsJpz+UFiEakattGrUD3nTZcUrD3LpDXm2a7rkg1IUR4/cE3KVPQPROJWpUqHMuycBr9tPRop1iR+mVd root@BuRn1nG"
+  public_key = ""
   }
 resource "aws_instance" "web" {
   ami = "ami-25615740"
